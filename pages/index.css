@@ -1,0 +1,19 @@
+@import url("../vendor/normalize.css");
+@import url("../blocks/inter.css");
+@import url("../blocks/footer.css");
+@import url("../blocks/header.css");
+@import url("../blocks/pages.css");
+@import url("../blocks/profile.css");
+@import url("../blocks/elements.css");
+@import url("../blocks/popup__profile.css");
+@import url("../blocks/popup__addCard.css");
+@import url("../blocks/popupCards.css");
+
+* {
+  margin: 0;
+}
+
+main {
+  background-color: black;
+  color: white;
+}
