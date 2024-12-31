@@ -1,9 +1,9 @@
-import { Card } from "../scripts/Card.js";
-import { PopupWithForm } from "../scripts/PopupWithForms.js";
-import { PopupWithImage } from "../scripts/PopupWithImages.js";
-import { Section } from "../scripts/Section.js";
-import { UserInfo } from "../scripts/UserInf.js";
-import { FormValidator } from "../scripts/FormValidator.js";
+import { Card } from "./Card.js";
+import { PopupWithForm } from "./PopupWithForms.js";
+import { PopupWithImage } from "./PopupWithImages.js";
+import { Section } from "./Section.js";
+import { UserInfo } from "./UserInf.js";
+import { FormValidator } from "./FormValidator.js";
 // Variables para modificar el perfil
 const popupProfile = document.querySelector("#popup-profile");
 const profileButton = document.querySelector(".profile__edit-button");
@@ -23,8 +23,7 @@ const inputLink = document.querySelector("#input-card-link");
 const closeAddCardButton = document.querySelector(
   ".form__close-button-addCard"
 );
-const createButton = document.querySelector(".form__submit"); //botón de crear y guardar
-//Variables para agrandar imagen
+const createButton = document.querySelector(".form__submit");
 const popupCardImage = document.querySelector("#popup-show-card");
 const popupCardClose = document.querySelector(".popup__close-card");
 // Tarjetas iniciales
@@ -55,7 +54,6 @@ const initialCards = [
   },
 ];
 
-// Configuración para la validación de formularios
 const config = {
   formSelector: ".form",
   inputSelector: ".form__input",
@@ -65,7 +63,6 @@ const config = {
   errorClass: "form__input-error_active",
 };
 
-//Instancias de clase
 const profilePopup = new PopupWithForm("#popup-profile", (data) => {
   userInfo.setUserInfo({ name: data.name, hobbie: data.hobbie });
   profilePopup.close();
@@ -81,7 +78,6 @@ const userInfo = new UserInfo({
   hobbieSelector: ".profile__hobbie",
 });
 
-// Inicialización de la validación de formularios
 const profileFormValidator = new FormValidator(config, formProfile);
 profileFormValidator.enableValidation();
 
