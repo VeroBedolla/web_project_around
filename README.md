@@ -18,3 +18,9 @@ En el desarrollo de este proyecto, se emplearon diversas tecnologías y herramie
 ### Lenguaje de Programación
 
 - **JavaScript (JS)**: Utilizado para dotar al proyecto de funcionalidades dinámicas e interactividad. Se aplicó para manipular el DOM mediante _event listeners_ y desarrollar funciones que habilitan acciones en tiempo real, enriqueciendo la experiencia del usuario.
+
+## Equipo de Desarrollo
+
+Este proyecto fue desarrollado por:
+
+- **Veronica Bedolla Carrillo**
