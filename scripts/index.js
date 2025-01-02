@@ -14,7 +14,7 @@ const inputHobbie = document.querySelector("#input-hobbie");
 const formProfile = document.querySelector("#form-profile");
 const closeButton = document.querySelector(".form__close-button-profile");
 // Variables para agregar tarjetas (cards)
-const cardContainer = document.querySelector(".elements__container");
+const cardContainer = document.querySelector(".main__container");
 const popupAddCard = document.querySelector("#popup-add-card");
 const formAddCard = document.querySelector("#form-addCard");
 const addButton = document.querySelector(".profile__add-button");
@@ -104,7 +104,7 @@ const section = new Section(
       cardContainer.prepend(newCard);
     },
   },
-  ".elements__container"
+  ".main__container"
 );
 section.renderItems();
 

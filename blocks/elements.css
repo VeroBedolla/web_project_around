@@ -1,4 +1,4 @@
-.elements__container {
+.main__container {
   max-width: 880px;
   width: 100%;
   margin: 50px auto 67px auto;
@@ -86,7 +86,7 @@
 }
 
 @media (min-width: 501px) and (max-width: 768px) {
-  .elements__container {
+  .main__container {
     width: 100%;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
@@ -110,9 +110,8 @@
   }
 }
 
-
 @media (max-width: 500px) {
-  .elements__container {
+  .main__container {
     grid-template-columns: repeat(1, 1fr);
     padding: 0;
   }
