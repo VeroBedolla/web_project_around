@@ -24,3 +24,5 @@ En el desarrollo de este proyecto, se emplearon diversas tecnologías y herramie
 Este proyecto fue desarrollado por:
 
 - **Veronica Bedolla Carrillo**
+
+[Visita mi página web](https://verobedolla.github.io/web_project_around/)
